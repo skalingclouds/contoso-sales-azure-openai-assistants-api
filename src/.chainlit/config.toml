@@ -75,10 +75,10 @@ edit_message = true
 
 [UI]
 # Name of the assistant.
-name = "Contoso Sales"
+name = "APEX Class Member Agent"
 
 # Description of the assistant. This is used for HTML tags.
-# description = "The Contoso Sales Assistant demonstrates the use of the Azure Assistants API."
+# description = "APEX Class Member Agent."
 
 # Large size content are by default collapsed for a cleaner ui
 default_collapse_content = true
@@ -87,7 +87,7 @@ default_collapse_content = true
 cot = "full"
 
 # Link to your github repo. This will add a github button in the UI's header.
-github = "https://github.com/gloveboxes/contoso-sales-azure-openai-assistant"
+#github = ""
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
@@ -109,7 +109,7 @@ custom_css = "/public/custom.css"
 # custom_build = "./public/build"
 
 [UI.theme]
-    default = "dark"
+    default = "light"
     #layout = "wide"
     #font_family = "Inter, sans-serif"
 # Override default MUI light theme. (Check theme.ts)
